@@ -157,9 +157,7 @@ main {
   font-weight: 900;
   line-height: 1.8;
 }
-.ct-btn{
-  
-}
+
 .ct-1btn{
   height: 40px;
   width: 120px;
@@ -171,6 +169,8 @@ main {
   margin-bottom: 100px;
   font-weight: 900;
 }
+
+/* footer items */
 footer{
   width: 960px;
   background-color: #151414;
