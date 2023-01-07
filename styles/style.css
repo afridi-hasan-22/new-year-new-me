@@ -1,3 +1,90 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* header section */
+header {
+  margin: 0 auto;
+  width: 1000px;
+  height: 700pxpx;
+  background-repeat: no-repeat;
+  background-image: url(../images/banner/banner1.png);
+  background-size: cover;
+  display: flex;
   
+}
+
+.header-section {
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 216px;
+  margin-left: 500px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+.header-title {
+  text-align: right;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: #151414;
+  pad: 2px;
+}
+.header-desc{
+  margin-top: 24px;
+  text-align: right;
+  font: 400;
+  font-size: 0.7rem;
+  color: #444343;
+  line-height: 1.4;
+  padding: 2px;
+}
+.btn-header{
+  margin-top: 32px;
+  margin-left: 200px;
+}
+.btn-primary{
+  background-color : #F15B22;
+  color: white;
+  width: 120px;
+  height: 40px;
+  padding: 5px;
+  border: 0;
+}
+/* main section */
+main{
+  margin: 0 auto;
+  width: 960px;
+ 
+}
+.section-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 131px;
+}
+.person{
+  width: 40%;
+  margin-left: 87px;
+}
+.h3-sec-1{
+  font-weight: 1000 ;
+  font-size: 1.3rem;
+  
+}
+.sec1-desc{
+  color: #444343;
+  margin-top: 24px;
+  font-size: 0.7rem ;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.sec1-checkmark{
+  margin-top: 16px;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  margin-right: 87px;
 }
